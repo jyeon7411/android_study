@@ -15,6 +15,7 @@ var number = 10
 // 변수 선언하는 방법(2)
 // var/val 변수 : 자료형 = 값
 // 코틀린은 자료형을 적어주지 않으면 값을 보고 알아서 자료형을 추정해서 정함
+// 자료형을 명시적으로 적어주는 것이 더 좋음 (직관적)
 var number1 : Int = 20
 var hello1 : String = "Hello"
 var point1 : Double = 3.4
