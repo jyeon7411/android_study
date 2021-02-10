@@ -5,7 +5,7 @@
 
 
     <TextView
-        android:id="@+id/one"
+        android:id="@+id/one1"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_above="@id/five"
@@ -13,23 +13,23 @@
         android:background="#FF9800" />
 
     <TextView
-        android:id="@+id/two"
+        android:id="@+id/two1"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_above="@+id/five"
-        android:layout_toLeftOf="@id/three"
+        android:layout_toLeftOf="@id/three1"
         android:background="#3F51B5" />
 
     <TextView
-        android:id="@+id/three"
+        android:id="@+id/three1"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_above="@id/six"
+        android:layout_above="@id/six1"
         android:layout_toRightOf="@id/five"
         android:background="#9C27B0" />
 
     <TextView
-        android:id="@+id/four"
+        android:id="@+id/four1"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_below="@+id/one"
@@ -38,14 +38,14 @@
 
 
     <TextView
-        android:id="@+id/five"
+        android:id="@+id/five1"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_centerInParent="true"
         android:background="#F44336" />
 
     <TextView
-        android:id="@+id/six"
+        android:id="@+id/six1"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_centerVertical="true"
@@ -53,27 +53,27 @@
         android:background="#E91E63" />
 
     <TextView
-        android:id="@+id/seven"
+        android:id="@+id/seven1"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_below="@id/four"
-        android:layout_toLeftOf="@id/eight"
+        android:layout_below="@id/four1"
+        android:layout_toLeftOf="@id/eight1"
         android:background="#03A9F4" />
 
     <TextView
-        android:id="@+id/eight"
+        android:id="@+id/eight1"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_below="@id/five"
-        android:layout_toLeftOf="@id/nine"
+        android:layout_toLeftOf="@id/nine1"
         android:background="#009688" />
 
     <TextView
-        android:id="@+id/nine"
+        android:id="@+id/nine1"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_below="@id/six"
-        android:layout_toRightOf="@id/five"
+        android:layout_below="@id/six1"
+        android:layout_toRightOf="@id/five1"
         android:background="#CDDC39" />
 
 </RelativeLayout>
